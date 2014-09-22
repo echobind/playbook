@@ -12,7 +12,7 @@ While we generally keep normal business hours for the US Eastern timezone, we do
 ## Invoicing and Payment
 We require payment for the first iteration to begin work on a project. Starting with the second week, invoices will automatically be sent out on Friday and payment is due within 15 days.
 
-We do not itemize our invoices for the same reason we do not track exact hours. Weekly status is well documented through other means.
+We do not itemize our invoices for the same reason we do not track exact hours. Weekly status is well documented by other means.
 
 Invoices can be paid by check, wire transfer or credit card. 
 
@@ -34,7 +34,7 @@ We use Google Hangouts for both of these meetings since its nice to see everyone
 
 ## Project Management
 
-Our preferred project management software is Waffle. Waffle is a [Kanban board](http://en.wikipedia.org/wiki/Kanban_board) tool that integrates directly with Github Issues, which we use extensively during a project.
+Our preferred project management software is Waffle. Waffle is a [Kanban board](http://en.wikipedia.org/wiki/Kanban_board) tool that integrates directly with Github Issues, which we use extensively during a project. Don’t worry if you’ve never used one of these types of tools; they are extremely easy to grasp.
 
 We typically set up our boards in the following way:
 
@@ -44,7 +44,7 @@ We typically set up our boards in the following way:
 
 \vspace{2pt}
 
-Features are decided on and put into the “Backlog” column. At the start of each week, the project manager will move a certain number of stories into the “Ready” column. This number is the estimated amount that can be done for the week. It is meant as a guide, not a hard number. As development or design work is started on a feature, the feature card is moved to “In Progres”. With Waffle, items will automatically be marked as “Done” once the Pull Request is merged, a process that we detail in “Our Code Process”.
+Features are placed into the “Backlog” column. At the start of each week, a certain number of stories are moved into the “Ready” column. This number is the estimated amount that can be done for the week. It is meant as a guide, not a hard number. If stories need clarification or modification, that should happen prior to moving the feature to “Ready”. When development or design work is started on a feature, the feature card is moved to “In Progress”. Items will automatically be marked as “Done” once the Pull Request is merged, a process that we detail in “Our Code Process”.
 
 
 ---
