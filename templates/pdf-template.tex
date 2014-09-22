@@ -1,0 +1,102 @@
+\documentclass{book}
+
+% Fonts and typography
+
+%% Typography
+\usepackage[no-math]{fontspec}
+\defaultfontfeatures{Mapping = tex-text, Scale = MatchLowercase}
+
+%% Fonts
+\setmainfont[Scale=1.1]{Roboto Slab Light}
+
+% Page
+
+% %% Use full page in book style
+% \usepackage{fullpage}
+
+%% Set line spacing
+\linespread{1.2}
+
+% half-inch margins
+\usepackage[margin=0.8in]{geometry}
+
+%% Disable paragraph indentation
+\usepackage{parskip}
+
+%% Start sections from new page
+\let\stdsection\section
+\renewcommand\section{\newpage\stdsection}
+
+
+% Colors
+
+\usepackage{xcolor}
+
+%% Tango color scheme
+\definecolor{SkyBlue}{HTML}{3465A4}
+\definecolor{DarkSkyBlue}{HTML}{204A87}
+
+\definecolor{Plum}{HTML}{75507B}
+
+\definecolor{ScarletRed}{HTML}{CC0000}
+
+\definecolor{Aluminium1}{HTML}{EEEEEC}
+\definecolor{Aluminium6}{HTML}{2e3436}
+
+\definecolor{Black}{HTML}{000000}
+
+% Links
+
+%% Hyperref
+\usepackage[colorlinks, breaklinks, bookmarks, xetex]{hyperref}
+
+\hypersetup {
+  linkcolor = DarkSkyBlue,
+  citecolor = DarkSkyBlue,
+  filecolor = DarkSkyBlue,
+  urlcolor = DarkSkyBlue
+}
+
+%% Don’t use Mono font for URLs
+\urlstyle{same}
+
+% graphics config
+$if(graphics)$
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+$endif$
+
+%% Normal enumerates processing
+\usepackage{enumerate}
+
+%% Disable section numbers
+\setcounter{secnumdepth}{0}
+
+\pagestyle{empty}
+
+\begin{document}
+
+  % Title page
+
+  % \vspace*{\fill}
+  %   \begin{center}
+  %     {\Huge apprentice.io}
+  %   \end{center}
+  % \vspace*{\fill}
+
+  % \clearpage
+
+  \setcounter{page}{0}
+
+  % Book contents
+
+  $body$
+
+\end{document}
