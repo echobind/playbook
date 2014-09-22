@@ -8,7 +8,7 @@
 
 \begin{large}
 
-The playbook is a guide to how we work at echobind. It gives current or potential clients and partners an overview of our operating and coding processes.
+The playbook is a guide that gives current or potential clients and partners an overview of our operating and coding processes.
 
 The processes outlined in the playbook are our recipe to successful software products. Some are required and others are negotiable, but they all exist to create the best possible applications and working relationship for our team and yours.
 
