@@ -37,7 +37,7 @@ We’re a virtual office, so we use Google Hangouts for both of these meetings. 
 
 ## Project Management
 
-Our preferred project management software is [Waffle](http://waffle.io). Waffle is a [Kanban board](http://en.wikipedia.org/wiki/Kanban_board) tool that integrates directly with Github Issues, which we use extensively during a project. Don’t worry if you’ve never used one of these types of tools; they are easy to grasp.
+Our preferred project management software is [Waffle](http://waffle.io). Waffle is a [Kanban board](http://en.wikipedia.org/wiki/Kanban_board) tool that integrates directly with Github Issues, which we use extensively during projects. Don’t worry if you’ve never used these types of tools; they are easy to grasp.
 
 We typically set up our boards in the following way:
 
@@ -47,10 +47,10 @@ We typically set up our boards in the following way:
 
 \vspace{2pt}
 
-Features are placed into the “Backlog” column. At the start of each week, a certain number of stories are moved into the “Ready” column. This number is the estimated amount that can be done for the week. It is meant as a guide, not a hard number. If stories need clarification or modification, that should happen prior to moving the feature to “Ready”. When development or design work is started on a feature, the feature card is moved to “In Progress”. Items will automatically be marked as “Done” once the Pull Request is merged, a process that we detail in [Our Code Process](#our-code-process).
+Features are placed into the “Backlog” column. At the start of each week, a certain number of features are moved into the “Ready” column. This number is the estimated amount that can be done for the week. It is meant as a guide, not a hard number. Any clarification or modification of features should happen before they are moved to “Ready”. When development or design work is started on a feature, the feature is moved to “In Progress”. Items will automatically be marked as “Done” once the Pull Request is merged, a process that we detail in [Our Code Process](#our-code-process).
 
 ## The Initial Week
-What we do in the first week varies widely depending on the project, but here are some of the things that we might do:
+What we do in the first week varies widely depending on the scope and length of the project, but here are some of the things that we might do:
 
 - The Roadmapping Session
 - Account setup
