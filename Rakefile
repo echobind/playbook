@@ -15,8 +15,8 @@ PANDOC = ['pandoc', PANDOC_FLAGS].join(' ')
 
 directory OUTPUT_DIRECTORY_NAME
 
-desc "Regenerate the PDF."
-task :regenerate => [:clean, OUTPUT_DIRECTORY_NAME] do
+desc "Build the pdf"
+task :build => [:clean, OUTPUT_DIRECTORY_NAME] do
   Dir.mktmpdir do |dir|
     `#{PANDOC} source/*.md -o #{dir}/content.pdf`
     `pdftk source/cover.pdf #{dir}/content.pdf cat output pdf/playbook.pdf`
@@ -36,12 +36,7 @@ task :release => :regenerate do
   `git push origin master`
 end
 
-desc "Default task: regenerate PDF."
-task :default => :regenerate
-
-task :build do
-  # sh 'markdown-pdf -s source/css/style.css -o build/playbook.pdf source/1-intro.md -d 1000'
-end
+task :default => :build
 
 task :open do
   sh 'open pdf/playbook.pdf'
