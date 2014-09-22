@@ -1,4 +1,9 @@
-# To edit:
+# The Playbook
+The playbook is a guide that gives current or potential clients and partners an overview of our operating and coding processes.
+
+Please keep this information up-to-date as our processes evolve.
+
+### Editing
 To build the pdf you will need:
 - pandoc
 - pdftk
