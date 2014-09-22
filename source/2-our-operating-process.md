@@ -22,19 +22,21 @@ Slack is the chat system of choice for us. Each project gets a custom room that 
 - staging/production deployment notifications
 - bug notifications
 
-If clients have files, documents or images that should be included in the project, they can be dropped into the slack chat room to be shared among everyone working on the project. This eliminates additional overhead like email or adding individual accounts to Dropbox shared folders.
+If clients have files, documents or images that should be included in the project, they can be dropped into the Slack chat room to be shared among everyone working on the project. This eliminates additional overhead like email or adding individual accounts to Dropbox shared folders.
 
 ## Meetings
 
-We don’t have a lot of meetings. Everyone stays in communication using chat. We start off every day with a quick update on what’s going in our client projects, which usually takes 5 minutes or less.
+We don’t have a lot of meetings. Everyone stays in communication using chat. The longest meeting we have is a [Roadmapping Session](#the-roadmapping-session), which is done at the start of the project. The length varies, but it can take anywhere from 2 hours to a full day.
+
+Following the [Roadmapping Session](#the-roadmapping-session), we start off every day with a quick update on what’s going in our client projects, which usually takes 5 minutes or less.
 
 At the end of a week we have a recap meeting to discuss the iteration that was just completed. If possible, we want our clients to attend this. We limit the recap meeting to 30 minutes.
 
-We use Google Hangouts for both of these meetings since its nice to see everyone face-to-face.
+We’re a virtual office, so we use Google Hangouts for both of these meetings. It’s nice to see everyone’s face.
 
 ## Project Management
 
-Our preferred project management software is Waffle. Waffle is a [Kanban board](http://en.wikipedia.org/wiki/Kanban_board) tool that integrates directly with Github Issues, which we use extensively during a project. Don’t worry if you’ve never used one of these types of tools; they are extremely easy to grasp.
+Our preferred project management software is [Waffle](http://waffle.io). Waffle is a [Kanban board](http://en.wikipedia.org/wiki/Kanban_board) tool that integrates directly with Github Issues, which we use extensively during a project. Don’t worry if you’ve never used one of these types of tools; they are quite easy to grasp.
 
 We typically set up our boards in the following way:
 
@@ -44,7 +46,10 @@ We typically set up our boards in the following way:
 
 \vspace{2pt}
 
-Features are placed into the “Backlog” column. At the start of each week, a certain number of stories are moved into the “Ready” column. This number is the estimated amount that can be done for the week. It is meant as a guide, not a hard number. If stories need clarification or modification, that should happen prior to moving the feature to “Ready”. When development or design work is started on a feature, the feature card is moved to “In Progress”. Items will automatically be marked as “Done” once the Pull Request is merged, a process that we detail in “Our Code Process”.
+Features are placed into the “Backlog” column. At the start of each week, a certain number of stories are moved into the “Ready” column. This number is the estimated amount that can be done for the week. It is meant as a guide, not a hard number. If stories need clarification or modification, that should happen prior to moving the feature to “Ready”. When development or design work is started on a feature, the feature card is moved to “In Progress”. Items will automatically be marked as “Done” once the Pull Request is merged, a process that we detail in [Our Code Process](#our-code-process).
 
+## The Roadmapping Session
+
+The Roadmapping Session is one of the first things we do with clients. The product of this meeting is a visual Roadmap. The Roadmap is a 1 to 2 page PDF that maps out the project. We find having something visual like this makes sure everyone is one the same page, and promotes quality right from the start. During the Roadmapping Session meeting, we discuss the relationship between your business and the project. We talk about use-cases, goals, how ideas have been validated, and many other things. We try do have this discovery meeting in person, but will use Google Hangouts if meeting in person is not feasible.
 
 ---
