@@ -1,7 +1,7 @@
 # Our Operating Process
 
 ## Iterations and Hours
-We work on client projects in weekly iterations, four days per week. We typically work work Monday through Thursday (barring no major holidays or staff illness). Fridays are normally reserved for echobind’s internal business tasks. We work during normal business hours, but do not track the exact number of hours worked. All work that is completed during the week is clearly documented via source control and project management systems.
+We work on client projects in weekly iterations, four days per week. We typically work work Monday through Thursday (barring no major holidays or staff illness). Fridays are normally reserved for echobind’s internal business tasks. We work during normal business hours, but do not track the exact number of hours worked. All work that is completed during the week is clearly documented via source control, project management systems, chat and weekly recap meetings.
 
 ## Invoicing and Payment
 We require one week’s advance payment to begin a project. In successive working weeks, we invoice every Friday. Because we bill by the week, we do not itemize our invoices. We keep things simple for us and our clients and charge one amount per developer, per week. 
@@ -9,7 +9,7 @@ We require one week’s advance payment to begin a project. In successive workin
 Payment is due within 15 days of the invoice date. Invoices can be paid by check, wire transfer, or credit card. 
 
 ## Communication
-Slack is our preferred chat system. Each project receives a custom chat room that we use to deliver all of our communications. We use Slack integrations extensively to notify us when important events occur.
+Slack is our preferred chat system. Each project receives a private chat room that brings together our developers and project stakeholders. This chat room is used to deliver all of our communications. We use Slack integrations extensively to notify us when important events occur.
 
 Example events include:
 - staging/production deployment notifications
@@ -23,7 +23,7 @@ In addition, we document our progress via GitHub (our preferred source control s
 
 ## Meetings
 
-We don’t have a lot of meetings. However, we do begin each project with a [Roadmapping Session](#the-roadmapping-session), which lasts between two hours and a full day. At the end of each week, we hold a quick recap meeting with our clients to discuss the iteration that was just completed. We limit the recap meeting to 30 minutes. Since we’re a virtual office, we use Google Hangouts for the Roadmapping Session and the recap meetings. 
+We don’t have a lot of meetings. Our client’s budgets are far better served when we’re actively working on a project. However, we do begin each project with a [Roadmapping Session](#the-roadmapping-session), which lasts between two hours and a full day. At the end of each week, we hold a quick recap meeting with our clients to discuss the iteration that was just completed. We limit the recap meeting to 30 minutes. Since we’re a virtual office, we use Google Hangouts for the Roadmapping Session and the recap meetings. 
 
 ## Project Management
 
@@ -47,7 +47,7 @@ Our work in the first week can vary depending on the project’s scope. But here
 - Set up continuous integration (CI)
 - Specify development process / workflows 
 - Audit existing code
-- Write some tests to cover untested functionality
+- Write tests to cover untested functionality
 
 ## The Roadmapping Session
 
