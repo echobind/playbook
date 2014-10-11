@@ -47,16 +47,16 @@ For Ruby code, we follow a [community style guide](https://github.com/bbatsov/ru
 We are working on a style guide for our Ember applications.
 
 ## Test Driven Development (TDD)
-We practice TDD as much as possible. We write extensive unit tests and acceptance tests to ensure the integrity of each feature. In some situations, we write code first and write tests afterwards. But, usually we write the tests first. And, whenever we change code, we always write tests to ensure we are making the correct modifications.
+We practice TDD as much as possible. We write extensive unit tests and acceptance tests to ensure the integrity of each feature. In some situations, we write code first and write tests afterwards. But, usually we write the tests first. Either way, tests are always written as they are critical to ensure that future features and iterations do not break existing functionality or business rules.
 
 ## Hosting
-We host static sites and ember apps with [Divshot](http://divshot.com) and Ruby and Rails apps with [Heroku](http://heroku.com). We are not sysadmins, and find our time is better spent making applications awesome rather than configuring servers. 
+We host static sites and ember apps with [Divshot](http://divshot.com) and Ruby and Rails apps with [Heroku](http://heroku.com). We are not sysadmins, and find our time is better spent making applications awesome rather than configuring servers. If clients need a recommendation for sysadmin work, we know some really great people that we can refer them to.
 
 ## Browser Support
 We design and develop for modern browsers. We don’t support IE versions lower than 9. If users visit your app from an old browser, they will see a message that asks them to upgrade to a newer one.
 
 ## Monitoring
-It’s important to track your application’s performance metrics. We use the metrics feature of the [Heroku dashboard](https://dashboard-next.heroku.com) to look at web response times, CPU, and memory usage. We use [Skylight](https://www.skylight.io) to detect and improve slow actions and queries.
+It’s important to track your application’s performance metrics. We use the metrics feature of the [Heroku dashboard](https://dashboard-next.heroku.com) to look at web response times, CPU, and memory usage. We use [Skylight](https://www.skylight.io) to detect and improve slow actions and queries. We are also experienced using New Relic.
 
 ## Bug Tracking
 We recommend Bugsnag or Honeybadger to track bugs. We find Bugsnag works best for environments with different types of codebases or separate projects. Honeybadger works best for Rails environments. Other services will probably work fine too. The important thing is that there is a system in place.
