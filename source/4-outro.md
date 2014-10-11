@@ -1,4 +1,5 @@
 
+\newpage
 \vspace*{\fill}
 
 ---
@@ -9,7 +10,9 @@
 
 \begin{large}
 
-Thanks for reading. We can’t wait to see what we get to build with you.
+Thanks for reading our playbook.
+
+We can’t wait to see what we get to build with you.
 
 \end{large}
 
