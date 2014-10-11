@@ -1,45 +1,35 @@
 # Our Operating Process
 
 ## Iterations and Hours
-We work on client projects in weekly iterations, four days a week. We try to work work Monday through Thursday as much as possible. If there are holidays or someone gets sick, we will switch days around as best we can. We’re all pretty healthy people, so getting sick is rare.
-
-We don’t track the exact number of hours worked during the week. We are open in our communication, and clearly document the work being done via source control and project management systems. You should never need to ask “how is everything going?” when working with us.
-
-_keep this next one or no?_
-
-While we generally keep normal business hours for the US Eastern timezone, we don’t strictly enforce it. On certain days, a developer may hit a stride at 8am. Or 6pm. Maybe a complicated algorithm is best worked out over a lunch time bike ride or a walk. We encourage these behaviors as it often produces the best work. Programming and designing are very intensive tasks and everyone needs to be fresh.
+We work on client projects in weekly iterations, four days per week. We typically work work Monday through Thursday (barring no major holidays or staff illness). Fridays are normally reserved for echobind’s internal business tasks. We work during normal business hours, but do not track the exact number of hours worked. All work that is completed during the week is clearly documented via source control and project management systems.
 
 ## Invoicing and Payment
-We require payment for the first iteration to begin work on a project. Starting with the second week, invoices will automatically be sent out on Friday and payment is due within 15 days.
+We require one week’s advance payment to begin a project. In successive working weeks, we invoice every Friday. Because we bill by the week, we do not itemize our invoices. We keep things simple for us and our clients and charge one amount per developer, per week. 
 
-We do not itemize our invoices for the same reason we do not track exact hours. Weekly status is well documented by other means.
-
-Invoices can be paid by check, wire transfer or credit card. 
+Payment is due within 15 days of the invoice date. Invoices can be paid by check, wire transfer, or credit card. 
 
 ## Communication
-Slack is the chat system of choice for us. Each project gets a custom room that we use for all of our communication. We use Slack integrations extensively to give us notifications in the chat room when important events occur. 
+Slack is our preferred chat system. Each project receives a custom chat room that we use to deliver all of our communications. We use Slack integrations extensively to notify us when important events occur.
 
 Example events include:
 - staging/production deployment notifications
 - bug notifications
+- source control commits
+- project management updates
 
-If clients have files, documents or images that should be included in the project, they can be dropped into the Slack chat room to be shared among everyone working on the project. This eliminates additional overhead like email or adding individual accounts to Dropbox shared folders.
+If you have files, documents, or images, you can drop them into the Slack chat room for group sharing. This practice eliminates cumbersome, back-and-forth processes such as sending multiple emails to several people or adding individual accounts to Dropbox shared folders.
+
+In addition, we document our progress via GitHub (our preferred source control system) and Waffle (our preferred project management system). We put multiple processes in place so our clients never need to ask, “How is everything going?”. We try to use chat as much as possible so we can communicate frequently and informally.
 
 ## Meetings
 
-We don’t have a lot of meetings. Everyone stays in communication using chat. The longest meeting we have is a [Roadmapping Session](#the-roadmapping-session), which is done at the start of the project. The length varies, but it can take anywhere from 2 hours to a full day.
-
-Following the [Roadmapping Session](#the-roadmapping-session), we start off every day with a quick update on what’s going in our client projects, which usually takes 5 minutes or less.
-
-At the end of a week we have a recap meeting to discuss the iteration that was just completed. If possible, we want our clients to attend this. We limit the recap meeting to 30 minutes.
-
-We’re a virtual office, so we use Google Hangouts for both of these meetings. It’s nice to see everyone’s face.
+We don’t have a lot of meetings. However, we do begin each project with a [Roadmapping Session](#the-roadmapping-session), which lasts between two hours and a full day. At the end of each week, we hold a quick recap meeting with our clients to discuss the iteration that was just completed. We limit the recap meeting to 30 minutes. Since we’re a virtual office, we use Google Hangouts for the Roadmapping Session and the recap meetings. 
 
 ## Project Management
 
-Our preferred project management software is [Waffle](http://waffle.io). Waffle is a [Kanban board](http://en.wikipedia.org/wiki/Kanban_board) tool that integrates directly with Github Issues, which we use extensively during projects. Don’t worry if you’ve never used these types of tools; they are easy to grasp.
+Our preferred project management software is [Waffle](http://waffle.io). Waffle is a [Kanban board](http://en.wikipedia.org/wiki/Kanban_board) tool that integrates directly with Github Issues, which we use extensively during projects. These tools are easy to grasp and client friendly.
 
-We typically set up our boards in the following way:
+We usually set up our boards in the following way:
 
 \vspace{14pt}
 
@@ -47,23 +37,23 @@ We typically set up our boards in the following way:
 
 \vspace{2pt}
 
-Features are placed into the “Backlog” column. At the start of each week, a certain number of features are moved into the “Ready” column. This number is the estimated amount that can be done for the week. It is meant as a guide, not a hard number. Any clarification or modification of features should happen before they are moved to “Ready”. When development or design work is started on a feature, the feature is moved to “In Progress”. Items will automatically be marked as “Done” once the Pull Request is merged, a process that we detail in [Our Code Process](#our-code-process).
+As illustrated, features are first placed into the “Backlog” column. The client is expected to help write these features and review and suggest any necessary changes to them. Then, each week, we estimate which features can be completed and move them into the “Ready” column. While we do our absolute best to complete the “Ready” features within the week’s iteration, we cannot guarantee that all work will be finished. Incomplete items from an iteration get moved to the next one. Once development or design work begins on “Ready” features, they are moved to “In Progress.” Once completed, “In Progress” features are reviewed, and once they are accepted, items are be marked as “Done.”  For more details about this process, see [Our Code Process](#our-code-process). 
 
-## The Initial Week
-What we do in the first week varies widely depending on the scope and length of the project, but here are some of the things that we might do:
+## The First Week
+Our work in the first week can vary depending on the project’s scope. But here are some of the things that we typically do:
 
-- The Roadmapping Session
-- Account setup
-- Set up CI (continuous integration)
-- Help put development process / workflows in place
-- Audit existing code to get a better grasp on what we’re dealing with.
+- Conduct the Roadmapping Session with the client
+- Set up any required accounts (hosting, source control, etc)
+- Set up continuous integration (CI)
+- Specify development process / workflows 
+- Audit existing code
 - Write some tests to cover untested functionality
 
 ## The Roadmapping Session
 
-The Roadmapping Session is one of the first things we do with clients. The product of this meeting is a visual Roadmap. The Roadmap is a 1 to 2 page PDF that maps out the project. We find that having something visual like this helps makes sure everyone is one the same page, and promotes quality right from the start. During the Roadmapping Session meeting, we discuss the relationship between your business and the project. We talk about use-cases, goals, how ideas have been validated, and many other things. We try do have the Roadmapping Session in person, but will use Google Hangouts if meeting in person is not feasible.
+Before we begin working on a new project, we conduct a Roadmapping Session. During this meeting, we discuss the project and its relationship to the client’s overall business. We also talk about use-cases, product validation, and the project’s overall goals. This conversation enables us to produce a Roadmap, which is a 1 to 2 page PDF that details the project’s timeline and helps ensure its success.
 
-A hypothetical Roadmap might look like this:
+A hypothetical Roadmap looks like this:
 
 \vspace{14pt}
 
@@ -71,23 +61,18 @@ A hypothetical Roadmap might look like this:
 
 \vspace{2pt}
 
-## Project Completion
-
-We’re not the type of consulting company that just moves on to the next project. Having poured lots time and energy into a project, we want it to succeed. It’s not uncommon for us to use and promote a product we’ve worked on. Our ideal clients become long term partners. 
-
-Our business thrives on referrals. During a project we’ll ask if you have any other contacts that we could help out. Having experienced how we work first hand, it would mean the world to us if you refer us to others.
 
 ## Maintenance Agreements
 
-After completing a project, we can transition to a maintenance agreement. Maintenance agreements are billed as a monthly retainer, and typically include:
+After completing a project, we can transition to a maintenance agreement. Maintenance agreements are billed as a monthly retainer and typically include:
 
 - security updates and patches
-- act as an advisor on best practices
-- act as an advisor when architecting new features
-- ongoing code review / suggestions for your team
+- advice on best practices
+- help architecting new features  
+- ongoing code review
 - bug fixes
 
-Maintenance agreements require a minimum 3 month commitment and include up to 32 hours per month.
+Maintenance agreements require a minimum three-month commitment and include up to 32 hours per month.
 
 \vspace{14pt}
 

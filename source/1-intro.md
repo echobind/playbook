@@ -8,11 +8,7 @@
 
 \begin{large}
 
-The playbook is a guide that gives current or potential clients and partners an overview of our operating and coding processes.
-
-The processes outlined in the playbook are our recipe to successful software products. Some are required and others are negotiable, but they all exist to create the best possible applications and working relationship for our team and yours.
-
-This is how we work.
+The Playbook is a guide that outlines our operating procedures and coding processes. These practices help us to create the best possible software products while ensuring a successful working relationship with our clients. This is how we work. 
 
 \end{large}
 
