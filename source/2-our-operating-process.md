@@ -37,7 +37,7 @@ We usually set up our boards in the following way:
 
 \vspace{2pt}
 
-As illustrated, features are first placed into the “Backlog” column. The client is expected to help write these features and review and suggest any necessary changes to them. Then, each week, we estimate which features can be completed and move them into the “Ready” column. While we do our absolute best to complete the “Ready” features within the week’s iteration, we cannot guarantee that all work will be finished. Incomplete items from an iteration get moved to the next one. Once development or design work begins on “Ready” features, they are moved to “In Progress.” Once completed, “In Progress” features are reviewed, and once they are accepted, items are be marked as “Done.”  For more details about this process, see [Our Code Process](#our-code-process). 
+As illustrated, features are first placed into the “Backlog” column. The client is expected to help write these features and review and suggest any necessary changes to them. Then, each week, we estimate which features can be completed and move them into the “Ready” column. While we do our absolute best to complete the “Ready” features within the week’s iteration, we cannot guarantee that all work will be finished. Incomplete items from an iteration get moved to the next one. Once development or design work begins on “Ready” features, they are moved to “In Progress.” Once completed, “In Progress” features are reviewed, and once they are accepted, items are marked as “Done.”  For more details about this process, see [Our Code Process](#our-code-process).
 
 ## The First Week
 Our work in the first week can vary depending on the project’s scope. But here are some of the things that we typically do:
@@ -45,7 +45,7 @@ Our work in the first week can vary depending on the project’s scope. But here
 - Conduct the Roadmapping Session with the client
 - Set up any required accounts (hosting, source control, etc)
 - Set up continuous integration (CI)
-- Specify development process / workflows 
+- Specify development process / workflows
 - Audit existing code
 - Write tests to cover untested functionality
 
@@ -68,7 +68,7 @@ After completing a project, we can transition to a maintenance agreement. Mainte
 
 - security updates and patches
 - advice on best practices
-- help architecting new features  
+- help architecting new features
 - ongoing code review
 - bug fixes
 
