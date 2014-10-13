@@ -22,7 +22,7 @@ We follow a standard branching workflow during development:
 Testing Automation from a CI server is vital to our process. Testing Automation ensures our developers write proper tests, and it prevents changes to the app from “breaking” the test suite. The CI server is connected to Slack and notifies us if a Pull Request is ready to merge. Once merged, the CI server auto-deploys to staging. Codeship is our preferred CI server because it’s easy to use, supports multiple languages and test suites, and is reasonably priced.
 
 ## Releasing to Staging
-We auto-deploy to a staging server so that it always reflects master. This deploy serves as the final gate check before code is released to production.
+We auto-deploy to a staging server so that it always reflects master. This deploy serves as the final checkpoint before code is released to production.
 
 ## Releasing to Production
 We release code to production by either: (1) manually deploying through a script or git push; or (2) using the promote feature available on certain hosts. All of our developers can deploy to production, and they typically do so multiple times per day.
@@ -30,10 +30,10 @@ We release code to production by either: (1) manually deploying through a script
 ## Databases
 Postgres is our database of choice. Postgres is proven, reliable, and modern.
 
-We recommend that our clients migrate to Postgres if they use Mongo to store their data. We can complete this migration for you. In our experience, Mongo is often used to store data in a relational manor, a purpose for which it was not designed. As a result, it performs poorly. We’ve even seen cases where Mongo has caused our clients to lose data. Mongo does not support transactions or rollback features. For these reasons, we have instituted a “No Long-term Mongo” policy on all new projects.
+We recommend that our clients migrate to Postgres if they use Mongo to store their data. We can complete this migration for you. In our experience, Mongo is often used to store data in a relational manner, a purpose for which it was not designed. As a result, it performs poorly. We’ve even seen cases where Mongo has caused our clients to lose data. Mongo does not support transactions or rollback features. For these reasons, we have instituted a “No Long-term Mongo” policy on all new projects.
 
 ## Code Quality
-We value code quality. Code that is easily readable and cleanly written is easier to maintain and update in the future. 
+We value code quality. Code that is easily readable and cleanly written is easier to maintain and update in the future.
 
 We use Code Climate along with code reviews in Pull Requests to help us maintain code quality.
 
