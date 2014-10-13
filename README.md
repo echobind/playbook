@@ -25,5 +25,8 @@ Thanks to thoughtbot for providing jumping off points for the latex template and
 ### Images
 Currently, images need be uploaded to s3 as a pdf for inclusion in the project. This is because pandoc needs an absolute path or a url, and url’s will work across anyone’s setup.
 
+### Fonts
+Install Roboto Slab from Google Fonts.
+
 ### Deploying
 The built pdf should be uploaded to s3 and linked to on the main website.
