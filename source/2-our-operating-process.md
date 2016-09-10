@@ -1,7 +1,7 @@
 # Our Operating Process
 
 ## Iterations and Hours
-We work on client projects in weekly iterations, four days per week. We typically work work Monday through Thursday (barring no major holidays or staff illness). Fridays are normally reserved for echobind’s internal business tasks. We work during normal business hours, but do not track the exact number of hours worked. All work that is completed during the week is clearly documented via source control, project management systems, chat and weekly recap meetings.
+We work on client projects in weekly iterations, four days per week. We typically work Monday through Thursday (barring no major holidays or staff illness). Fridays are normally reserved for echobind’s internal business tasks. We work during normal business hours, but do not track the exact number of hours worked. All work that is completed during the week is clearly documented via source control, project management systems, chat and weekly recap meetings.
 
 ## Invoicing and Payment
 We require one week’s advance payment to begin a project. In successive working weeks, we invoice every Friday. Because we bill by the week, we do not itemize our invoices. We keep things simple for us and our clients and charge one amount per developer, per week. 
