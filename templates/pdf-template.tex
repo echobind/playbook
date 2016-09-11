@@ -1,4 +1,9 @@
-\documentclass{book}
+\documentclass{report}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\renewcommand{\chaptername}{}
+\renewcommand{\thechapter}{}
 
 % Colors
 \usepackage{xcolor}
@@ -77,11 +82,6 @@
 
 %% Disable paragraph indentation
 \usepackage{parskip}
-
-%% Start sections from new page
-\let\stdsection\section
-\renewcommand\section{\newpage\stdsection}
-
 
 %% Don’t use Mono font for URLs
 \urlstyle{same}

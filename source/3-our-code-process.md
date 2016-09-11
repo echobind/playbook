@@ -11,10 +11,10 @@ We use ember.js for the front-end of our apps and Rails for the back-end code an
 We follow a standard branching workflow during development:
 
 1. A developer **creates a branch** from master that describes the feature. The branch is prefixed with the developer initials. Example: 'cb-allow-users-to-order-takeout'
-1. During development, the branch should be periodically pushed to origin. When the code is complete with **tests written to back up the change**, the developer looks through the commit messages in the branch and makes sure that they are readable and understandable. Any commit messages that need to be updated are fixed using the interactive rebase feature of git. 
+1. During development, the branch should be periodically pushed to origin. When the code is complete with **tests written to back up the change**, the developer looks through the commit messages in the branch and makes sure that they are readable and understandable. Any commit messages that need to be updated are fixed using the interactive rebase feature of git.
 1. The developer **creates a Pull Request** on GitHub. Slack notifies the team. We require all Pull Requests to be reviewed and marked with a +1 by another team member. This marking indicates that the changes are ready to merge to master.
 1. When the Pull Request is opened, **a CI (Continuous Integration) server runs the test suite**, ensuring the entire test suite still passes. The CI server will automatically update the Pull Request with the pass/fail status of the test suite.
-1. If a Pull Request has a +1 and passes CI, it is **merged to master** by the developer who originally opened it. 
+1. If a Pull Request has a +1 and passes CI, it is **merged to master** by the developer who originally opened it.
 1. The CI server will run the test suite a final time, and **automatically deploy to a staging server** where it can be reviewed from the browser.
 1. After a merge, developers should spot check the feature on the staging server so they can be sure everything works as intended in a production-like environment.
 
@@ -30,7 +30,7 @@ We release code to production by either: (1) manually deploying through a script
 ## Databases
 Postgres is our database of choice. Postgres is proven, reliable, and modern.
 
-We recommend that our clients migrate to Postgres if they use Mongo to store their data. We can complete this migration for you. In our experience, Mongo is often used to store data in a relational manner, a purpose for which it was not designed. As a result, it performs poorly. We’ve even seen cases where Mongo has caused our clients to lose data. Mongo does not support transactions or rollback features. For these reasons, we have instituted a “No Long-term Mongo” policy on all new projects.
+We recommend that our clients migrate to Postgres if they use Mongo to store their data. We can complete this migration for you. In our experience, Mongo is often used to store data in a relational manner, a purpose for which it was not designed. As a result, it performs poorly. We’ve even seen cases where Mongo has caused our clients to lose data. Mongo does not support transactions or rollback features. For these reasons, we have instituted a "No Long-term Mongo" policy on all new projects.
 
 ## Code Quality
 We value code quality. Code that is easily readable and cleanly written is easier to maintain and update in the future.
@@ -53,10 +53,10 @@ We practice TDD as much as possible. We write extensive unit tests and acceptanc
 We host static sites and ember apps with [Divshot](http://divshot.com) and Ruby and Rails apps with [Heroku](http://heroku.com). We are not sysadmins, and find our time is better spent making applications awesome rather than configuring servers. If clients need a recommendation for sysadmin work, we know some really great people that we can refer them to.
 
 ## Browser Support
-We design and develop for modern browsers. We don’t support IE versions lower than 9. If users visit your app from an old browser, they will see a message that asks them to upgrade to a newer one.
+We design and develop for modern browsers. We don't support IE versions lower than 9. If users visit your app from an old browser, they will see a message that asks them to upgrade to a newer one.
 
 ## Monitoring
-It’s important to track your application’s performance metrics. We use the metrics feature of the [Heroku dashboard](https://dashboard-next.heroku.com) to look at web response times, CPU, and memory usage. We use [Skylight](https://www.skylight.io) to detect and improve slow actions and queries. We are also experienced using New Relic.
+It’s important to track your application's performance metrics. We use the metrics feature of the [Heroku dashboard](https://dashboard-next.heroku.com) to look at web response times, CPU, and memory usage. We use [Skylight](https://www.skylight.io) to detect and improve slow actions and queries. We are also experienced using New Relic.
 
 ## Bug Tracking
 We recommend Bugsnag or Honeybadger to track bugs. We find Bugsnag works best for environments with different types of codebases or separate projects. Honeybadger works best for Rails environments. Other services will probably work fine too. The important thing is that there is a system in place.

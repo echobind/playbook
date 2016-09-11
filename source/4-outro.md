@@ -12,7 +12,7 @@
 
 Thanks for reading our playbook.
 
-We can’t wait to see what we get to build with you.
+We can't wait to see what we get to build with you.
 
 \end{large}
 
