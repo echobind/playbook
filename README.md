@@ -5,16 +5,17 @@ Please keep this information up-to-date as our processes evolve.
 
 ### Editing
 To build the pdf you will need:
-- pandoc
-- pdftk
+- pandoc (`brew install pandoc`)
+- pdftk (https://www.pdflabs.com/tools/pdftk-server/)
+- MacTex: (`brew cask install mactex`) note, this is kind of huge @ 2gb or so
 
-To build the pdf:
+To build the playbook:
 
 ```shell
 rake build
 ```
 
-To build and open the pdf:
+To build and open the playbook:
 
 ```shell
 rake preview
@@ -22,11 +23,8 @@ rake preview
 
 Thanks to thoughtbot for providing jumping off points for the latex template and rake tasks.
 
-### Images
-Currently, images need be uploaded to s3 as a pdf for inclusion in the project. This is because pandoc needs an absolute path or a url, and url’s will work across anyone’s setup.
-
 ### Fonts
 Install Roboto Slab from Google Fonts.
 
 ### Deploying
-The built pdf should be uploaded to s3 and linked to on the main website.
+The built pdf and html directories should be uploaded to s3 and linked to on the main website. This should be automated, but it's not yet.
